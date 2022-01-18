@@ -17,6 +17,11 @@ const config = {
 			'classic',
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
+				docs: {
+					sidebarPath: require.resolve('./sidebars.js'),
+					editUrl: 'https://github.com/abhigyantrips/disnake-web/edit/main/guide',
+					showLastUpdateTime: true,
+				},
 				theme: {
 					customCss: [
 						require.resolve('./src/css/lightTheme.css'),
