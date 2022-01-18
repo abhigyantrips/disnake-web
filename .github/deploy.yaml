@@ -3,6 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    paths:
+      - website/**
+      - package*.json
 
 jobs:
   deploy:
@@ -15,7 +18,7 @@ jobs:
           node-version: 14.x
           cache: yarn
       - name: Build website
-        working-directory: .
+        working-directory: website
         run: |
           yarn install --frozen-lockfile
           yarn build
@@ -23,6 +26,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./website/build
           user_name: github-actions[bot]
           user_email: github-actions[bot]@users.noreply.github.com
