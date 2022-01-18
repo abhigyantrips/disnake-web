@@ -5,8 +5,8 @@ const config = {
 	url: 'https://abhigyantrips.dev',
 	favicon: 'public/favicon.ico',
 
-	organizationName: 'DisnakeDev',
-	projectName: 'guide',
+	organizationName: 'abhigyantrips',
+	projectName: 'disnake-web',
 	baseUrl: '/disnake-web/',
 
 	onBrokenLinks: 'warn',
