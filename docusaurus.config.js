@@ -2,12 +2,12 @@
 
 const config = {
 	title: 'Disnake',
-	url: 'https://disnake.dev/',
+	url: 'https://abhigyantrips.dev',
 	favicon: 'public/favicon.ico',
 
 	organizationName: 'DisnakeDev',
 	projectName: 'guide',
-	baseUrl: '/',
+	baseUrl: '/disnake-web/',
 
 	onBrokenLinks: 'warn',
 	onBrokenMarkdownLinks: 'warn',
