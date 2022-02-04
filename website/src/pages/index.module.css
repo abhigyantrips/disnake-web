@@ -1,8 +1,25 @@
+.heroImg {
+	animation-duration: 2s;
+	animation-name: jackInTheBox;
+	float: right;
+	margin-top: 20px;
+	padding: 0px;
+	height: 200px;
+	margin: 10px 0;
+}
+
 .heroBanner {
 	padding: 4rem 0;
-	text-align: center;
 	position: relative;
 	overflow: hidden;
+	align-items: center;
+}
+
+.heroBanner h1,
+h2,
+h3,
+p {
+	text-align: center;
 }
 
 @media screen and (max-width: 966px) {
@@ -24,7 +41,30 @@
 	width: 100%;
 }
 
-.featureSvg {
-	height: 200px;
-	width: 200px;
+.featureImage {
+	width: 30%;
+}
+
+.configSnippet {
+	font-size: 10pt !important;
+}
+
+.configSnippets {
+	margin: 10px 0;
+}
+
+.pitch {
+	margin: 40px 0;
+}
+
+.sponsorImg {
+	max-height: 30px;
+}
+
+.getStarted {
+	margin: 1em;
+}
+
+.buttonDiv {
+	display: inline-block;
 }
