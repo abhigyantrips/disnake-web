@@ -108,27 +108,29 @@ function Home() {
 						<div className={clsx('col col--5 col--offset-1')}>
 							<h1 className="hero__title">{siteConfig.title.toUpperCase()}</h1>
 							<p className="hero__subtitle">An async Discord API wrapper in Python.</p>
-							<div className={styles.buttons + ' ' + styles.buttonDiv}>
-								<Link
-									className={clsx(
-										'button button--outline button--secondary button--lg',
-										styles.getStarted
-									)}
-									to="https://guide.disnake.dev/"
-								>
-									Get Started
-								</Link>
-							</div>
-							<div className={styles.buttons + ' ' + styles.buttonDiv}>
-								<Link
-									className={clsx(
-										'button button--outline button--secondary button--lg',
-										styles.getStarted
-									)}
-									to="https://github.com/DisnakeDev/disnake"
-								>
-									Visit GitHub
-								</Link>
+							<div>
+								<div className={styles.buttons + ' ' + styles.buttonDiv}>
+									<Link
+										className={clsx(
+											'button button--outline button--secondary button--lg',
+											styles.getStarted
+										)}
+										to="https://guide.disnake.dev/"
+									>
+										Get Started
+									</Link>
+								</div>
+								<div className={styles.buttons + ' ' + styles.buttonDiv}>
+									<Link
+										className={clsx(
+											'button button--outline button--secondary button--lg',
+											styles.getStarted
+										)}
+										to="https://github.com/DisnakeDev/disnake"
+									>
+										Visit GitHub
+									</Link>
+								</div>
 							</div>
 						</div>
 						<div className={clsx('col col--6')}>
