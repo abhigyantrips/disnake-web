@@ -18,9 +18,9 @@ const config = {
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
 				docs: {
-					routeBasePath: '/docs/',
+					routeBasePath: '/',
 					sidebarPath: require.resolve('./sidebars.js'),
-					editUrl: 'https://github.com/abhigyantrips/disnake-web/edit/main/guide',
+					editUrl: 'https://github.com/abhigyantrips/disnake-web/edit/main/website',
 					showLastUpdateTime: true,
 				},
 				theme: {
