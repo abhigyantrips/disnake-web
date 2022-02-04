@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "cd website && docusaurus start",
-    "build": "cd website && docusaurus build",
-    "swizzle": "cd website && docusaurus swizzle",
-    "deploy": "cd website && docusaurus deploy"
+    "start": "docusaurus start website",
+    "build": "docusaurus build website",
+    "swizzle": "docusaurus swizzle website",
+    "deploy": "docusaurus deploy website"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.14",
