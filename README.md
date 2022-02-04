@@ -1,41 +1,27 @@
-# Website
+[![Disnake Banner](https://raw.githubusercontent.com/DisnakeDev/disnake/master/assets/banner.png)](https://disnake.dev/)
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+# Disnake Guide (WIP)
 
-### Installation
+<p align="center">
+    <a href="https://discord.gg/gJDbCw8aQy"><img src="https://img.shields.io/discord/808030843078836254?style=flat-square&color=5865f2&logo=discord&logoColor=ffffff&label=discord" alt="Discord server invite" /></a>
+    <a href="https://github.com/abhigyantrips/disnake-web/commits"><img src="https://img.shields.io/github/commit-activity/w/abhigyantrips/disnake-web.svg?style=flat-square" alt="Commit activity" /></a>
+    <a href="https://abhigyantrips.dev/disnake-web"><img src="https://img.shields.io/github/deployments/abhigyantrips/disnake-web/github-pages?style=flat-square&color=blue" alt="GitHub checks" /></a>
+</p>
 
-```
-$ yarn
-```
+This site is built on [Docusaurus](https://docusaurus.io/) - probably overkill for a homepage, but this makes the design and styling of the site the exact same as our [guide](https://guide.disnake.dev/). This also makes it easier to shift the guide into the homepage, in the future.
 
-### Local Development
+## Development
 
-```
-$ yarn start
-```
+Development is currently limited to members of the organization only.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<br />
+<p align="center">
+    <a href="https://docs.disnake.dev/">Documentation</a>
+    ⁕
+    <a href="https://guide.disnake.dev/">Guide</a>
+    ⁕
+    <a href="https://discord.gg/gJDbCw8aQy">Discord Server</a>
+    ⁕
+    <a href="https://discord.gg/discord-api">Discord API</a>
+</p>
+<br />
